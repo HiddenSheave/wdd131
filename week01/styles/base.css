@@ -91,7 +91,7 @@ img {
     margin-bottom: 1rem;
     margin-top: -3.5rem;
 }
-p {
+main p {
     max-width: 400px;
     padding: 1rem;
     font-size: larger;
@@ -135,5 +135,8 @@ footer {
     margin-left: 15%;
 }
 footer p {
-    margin-left: 33%;
+    max-width: 1000px;
+    text-align: center;
+    padding: .5rem;
+    font-size: larger;
 }
