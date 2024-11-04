@@ -42,3 +42,6 @@ p {
     grid-column: 1/3;
     margin-top: -3rem;
 }
+#result {
+    margin-bottom: -4rem;
+}
