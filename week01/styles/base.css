@@ -140,3 +140,6 @@ footer p {
     padding: .5rem;
     font-size: larger;
 }
+#lastModified {
+    color: rgb(255, 219, 18);
+}
