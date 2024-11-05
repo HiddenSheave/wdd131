@@ -8,11 +8,12 @@ header {
 nav {
     background-color: black;
     padding: 1rem;
+    display: flex;
 }
 nav a {
     text-decoration: 0;
     color: white;
-    padding: 5.5rem;
+    padding: 1rem 5.5rem 1rem 5.5rem;
 }
 main {
     color: gray;
