@@ -1,0 +1,87 @@
+body {
+    font-family: "Bona Nova SC", serif;
+}
+figure img {
+    max-width: 300px;
+    border: 1px solid black;
+    margin-top: .5rem;
+}
+figcaption {
+    text-align: center;
+}
+header {
+	background-color: rgba(71, 134, 216, 0.9);
+	display: grid;
+	grid-gap: 1rem;
+	padding: 20px;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	box-shadow: 0 0 30px gold;
+}
+header,
+main {
+	margin: 0 auto;
+
+}
+.template {
+    display: grid;
+    grid-template-rows: repeat(9, 1fr);
+    justify-items: center;
+}
+h2 {
+    padding-top: 1rem;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+footer {
+    background-color: rgba(71, 134, 216, 0.9);
+    margin-top: 2%;
+    }
+footer p {
+    max-width: 1000px;
+    text-align: center;
+    padding: .5rem;
+    font-size: larger;
+    }
+
+nav {
+	margin: 0 auto;
+	max-width: 800px;
+    display: none;
+}
+nav a {
+	display: block;
+	color: black;
+	text-align: center;
+	padding: 1rem;
+	text-decoration: none;
+}
+
+nav a:hover {
+	text-decoration:overline;
+}
+nav.open {
+    display: block;
+    font-size: xx-large;
+}
+#menu {
+    font-size: 2rem;
+    border: 0;
+    background: none;
+    color: #000;
+     position: absolute;
+    top: 1rem;
+    right: 1rem;
+    cursor: pointer;
+    }
+#menu::before {
+    content: "☰";
+}
+#menu.open::before {
+    content: "❌";
+}
+
+
