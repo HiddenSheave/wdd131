@@ -1,0 +1,80 @@
+:root {
+    --royalblue: royalblue; 
+    background-color: white; 
+}
+body {
+    font-family: "Sour Gummy", sans-serif;
+}
+header {
+    background-color: var(--royalblue);
+    padding: 1rem;
+    text-align: center;
+    border-bottom: 1.5rem solid red;
+    max-width: 100%;
+    max-height: auto;
+}
+section {
+    font-size: x-large;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    gap: 1.5rem;  
+}
+#weather {
+    margin-top: -2rem;
+    border-top: 1px solid var(--royalblue);
+}
+#data {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+footer {
+    background-color: var(--royalblue);
+    padding: 1rem;
+    margin: 0 auto;
+    text-align: center;
+    font-size: x-large;
+    color: white;
+}
+.hero{
+    max-width: 100%;
+    width: 500px;
+    margin: 0 auto;
+    display: block;
+}
+.hero img {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+#icon {
+    width: 100px;
+    margin-top: -2rem;
+}
+ul{
+    list-style-type: none;
+    padding: 0;
+}
+li {
+    display: grid;
+    justify-content: space-between;
+    margin: 8px 0;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem;
+}
+li strong {
+    min-width: 120px;
+    grid-column: 1/2;
+    text-align: end;
+}
+li span {
+    grid-column: 2/3;
+    text-align: start;
+
+}
+h2, h1 {
+    font-size: xxx-large;
+}
+h1 {
+    color: white;
+}
