@@ -10,8 +10,7 @@ header {
     padding: 1rem;
     text-align: center;
     border-bottom: 1.5rem solid red;
-    max-width: 100%;
-    max-height: auto;
+    margin: 0 auto;
 }
 section {
     font-size: x-large;
