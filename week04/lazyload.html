@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lazy Load Images</title>
+    <meta name="description" content="Lazy loading images with fade-in effect.">
+    <link rel="stylesheet" href="styles/lazyload.css">
+    <script src="scripts/lazyload.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Lazy Load Images with Fade Effect</h1>
+    </header>
+    <main>
+        <picture>
+            <img src="https://picsum.photos/400/600" loading="lazy" alt="Image 1"
+            width="400" height="600">        </picture>
+        <picture>
+            <img src="https://picsum.photos/400/600?id=2" loading="lazy" alt="Image 2"
+            width="400" height="600">        </picture>
+        <picture>
+            <img src="https://picsum.photos/400/600?id=3" loading="lazy" alt="Image 3"
+            width="400" height="600">        </picture>
+        <picture>
+            <img src="https://picsum.photos/400/600?id=4" loading="lazy" alt="Image 4"
+            width="400" height="600">        </picture>
+        <picture>
+            <img src="https://picsum.photos/400/600?id=5" loading="lazy" alt="Image 5"
+            width="400" height="600">        </picture>
+        <picture>
+            <img src="https://picsum.photos/400/600?id=6" loading="lazy" alt="Image 6"
+            width="400" height="600">        </picture>
+    </main>
+    <footer>
+        <p>&copy;<span id="currentyear"></span> 🇬🇧 Bryce Petrovay 🇬🇧 United Kingdom</p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+</html>

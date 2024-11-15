@@ -1,0 +1,82 @@
+@media (min-width: 640px) {
+    .template {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: auto;
+        justify-items: center;
+        align-items: start;
+        }
+body {
+    font-family: "Bona Nova SC", serif;
+}
+figure img {
+    width: 350px;
+    border: 1px solid black;
+}
+figcaption {
+    text-align: center;
+}
+#menu {
+    display: none;
+}
+nav {
+    display: flex;
+    grid-column: 2/4;
+    margin: 0 auto;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: large;
+}
+nav a {
+    margin-left: .5rem;
+    display: block;
+    color: black;
+    text-align: center;
+    margin-right: 2rem;
+    text-decoration: none;
+}
+    
+nav a:hover {
+    text-decoration:overline;
+    }
+    
+header {
+    background-color: rgba(71, 134, 216, 0.9);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1rem;
+    padding: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 30px gold;
+    }
+h1 {
+    font-size: 2rem;
+    }  
+header,
+main{
+    margin: 0 auto;
+    max-width: 1500px;
+    }
+h2 {
+    grid-row: 1/4;
+    text-align: center;
+    padding-top: 1rem;
+    }
+footer {
+    max-width: 1500px;
+    background-color: rgba(71, 134, 216, 0.9);
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 2%;
+}
+footer p {
+    text-align: center;
+    padding: .5rem;
+    font-size: larger;
+    margin-top: -1rem;
+    width: 100%;
+    margin: 0 auto;
+    }
+}
+
+    
