@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="scripts/form.js" defer></script>
+    <link rel="stylesheet" href="styles/form.css">
+</head>
+<body>
+    <header>
+        <h1>Product Review</h1>
+    </header>
+    <main>
+        <form method="get" action="review.html">
+            <fieldset>
+                <div class="question1">
+                    <label for="product">Product Name</label>
+                    <select id="product" name="product" required>
+                        <option value="" disabled selected>Select a Product ...</option>
+                    </select>
+                </div>
+                <div class="overall">
+                    <label for="onestar" id="top">Overall Rating</label>
+                </div>
+                <div class="notuse">
+                    <div class="one">
+                        <input type="radio" id="onestar" name="stars" value="1" required>
+                        <label for="onestar">✩</label>
+                    </div>
+                    <div class="two">
+                        <input type="radio" id="twostar" name="stars" value="2" required>
+                        <label for="twostar">✩✩</label>
+                    </div>
+                    <div class="three">
+                        <input type="radio" id="threestar" name="stars" value="3" required>
+                        <label for="threestar">✩✩✩</label>
+                    </div>
+                    <div class="four">
+                        <input type="radio" id="fourstar" name="stars" value="4" required>
+                        <label for="fourstar">✩✩✩✩</label>
+                    </div>
+                    <div class="five">
+                        <input type="radio" id="fivestar" name="stars" value="5" required>
+                        <label for="fivestar">✩✩✩✩✩</label>
+                    </div>
+                </div>
+
+                <div class="install">
+                    <label for="date">Date of Installation</label>
+                    <input type="date" id="date" name="date" required>
+                </div>                    
+                <label for="durability">Which features did you find useful in the product?<br><span class="check">(Check all that apply)</span></label>
+                <div class="use">
+                    <div class="labe">
+                        <label for="durability">Durability</label>
+                    </div>
+                    <input type="checkbox" id="durability" name="use" value="Durability">
+                    
+                    <div class="labe">
+                        <label for="easeOfUse">Ease of Use</label>
+                    </div>
+                    <input type="checkbox" id="easeOfUse" name="use" value="Ease of Use">
+                    
+                    <div class="labe">
+                        <label for="performance">Performance</label>
+                    </div>
+                    <input type="checkbox" id="performance" name="use" value="Performance">
+                    
+                    <div class="labe">
+                        <label for="design">Design</label>
+                    </div>
+                    <input type="checkbox" id="design" name="use" value="Design"> 
+                </div>                    
+                <div class="box">
+                    <label id="box" for="feedback">Written Review <span class="optional">(Optional)</span></label>
+                    <textarea id="feedback" name="feedback" rows="6"></textarea>
+                </div>
+                <div class="final">
+                    <label for="name" id="names">Your Name <span class="optional">(Optional)</span></label>
+                    <input type="text" id="name">
+                </div>
+                <div class="butto">
+                    <label for="submit"></label>
+                    <input type="submit" value="Post Review" id="submit"></div>
+            </fieldset>
+        </form>
+        <footer>
+            <p>&copy;<span id="currentyear"></span> 🇬🇧 Bryce Petrovay 🇬🇧 United Kingdom</p>
+            <p id="lastModified"></p>
+        </footer>
+    </main>
+</body>
+</html>

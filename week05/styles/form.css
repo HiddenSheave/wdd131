@@ -1,0 +1,143 @@
+body {
+    max-width: 450px;
+    margin: 0 auto;
+}
+form {
+    background-color: rgb(245, 217, 255);
+    padding: .5rem;
+    border-radius: .5rem;
+}
+fieldset {
+    border-style: none;
+}
+h1, footer {
+    background-color: #4a0060;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+footer {
+    margin-top: 1.5rem;
+}
+.question1 {
+    padding: 1rem 0rem 1rem 0rem;
+}
+#product {
+    width: 408px;
+    padding: .5rem;
+    margin-top: .3rem;
+}
+.overall {
+    padding: 1rem 0.5rem 1rem .5rem;
+    display: flex;
+}
+.five, .four, .three, .two, .one{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+    text-align: center;
+}
+.five {
+    margin-right: -.3rem;
+}
+.five label {
+    margin-left: -.9rem;
+}
+.four label {
+    margin-left: -0.4rem;
+}
+.four {
+    margin-right: -1rem;
+}
+.three {
+    margin-right: -.3rem;
+}
+.one {
+    margin-left: .5rem;
+}
+.two {
+    margin-left: -.2rem;
+}
+input[type="radio" i] {
+    background-color: initial;
+    cursor: default;
+    appearance: auto;
+    box-sizing: border-box;
+    margin: 6px 6px 0px 6px;
+    padding: 1rem;
+    border: initial;
+    width: 25px;
+    height: 25px;
+}
+.notuse {
+    display: flex;
+    justify-content: space-between;
+}
+.install {
+    padding: 1rem 0rem 1rem 0rem;
+}
+#date {
+    width: 388px;
+    margin-top: .3rem;
+    padding: .5rem;
+}
+.use {
+    padding: 1rem 0rem 1rem 0rem;
+    display: flex;
+    flex-direction: column;
+    flex-direction: column;
+    align-items: baseline;
+}
+.use div {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+.use input {
+    width: 20px;
+    height: 20px;
+}
+.labe label {
+    margin-left: 1.3rem;
+    padding: .5rem;
+    margin-bottom: -.5rem;
+}
+.check {
+    font-style: italic;
+}
+.optional {
+    color: blue;
+}
+#durability, #performance, #design, #easeOfUse  {
+    margin-top: -1.2rem;
+}
+.box {
+    padding: 1rem 0rem 1rem 0rem;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.box textarea {
+    width: 401px;
+    margin-top: .3rem;
+}
+.final {
+    padding: 1rem 0rem 1rem 0rem;
+}
+#name {
+    width: 388px;
+    padding: .5rem;
+    margin-top: .3rem;
+}
+.butto {
+    display: flex;
+    justify-content: center;
+}
+#submit {
+    text-align: center;
+    font-weight: bold;
+    padding: .5rem;
+    border: 1px solid black;
+    width: 407px;
+    font-size: x-large;
+}
