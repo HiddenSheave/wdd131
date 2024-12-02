@@ -1,0 +1,212 @@
+@media (min-width: 515px) {
+    .hero {
+        width: 100%;
+        height: auto;
+    }
+    .hero img {
+        width: 100%;
+        height: auto;
+        border-bottom: 1px solid #A77800;
+        border-right: 1px solid #A77800;
+        border-left: 1px solid #A77800;
+        box-shadow: 1px 1px 10px 1px #A77800;
+        position: relative;
+        z-index: -1;
+    }
+    .notsection {
+        display: flex;
+        background-color: #F7D200;
+        color: #181613;
+        border: 1px solid #A77800;
+        box-shadow: 1px 1px 8px 1px #A77800; 
+        border-top-left-radius: 2rem;
+        border-top-right-radius: 2rem;
+        font-size: 1.3em;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        height: auto;
+        padding: 1rem;
+    }
+    @media (max-width: 750px) {
+        .notsection {
+            display: flex;
+            background-color: #F7D200;
+            color: #181613;
+            border: 1px solid #A77800;
+            box-shadow: 1px 1px 8px 1px #A77800; 
+            border-top-left-radius: 2rem;
+            border-top-right-radius: 2rem;
+            font-size: 1.3em;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+            height: auto;
+            padding: 1rem;
+            flex-direction: column;
+        }
+    }
+    .notsection p {
+        width: 75%;
+        margin-left: 2rem;
+        height: auto;
+    }
+    li {
+        margin-left: 3rem;
+    }
+    .smallmaps iframe {
+        border-radius: 2rem;
+        border: 1px solid #181613;
+        box-shadow: 1px 1px 8px 1px #181613; 
+        opacity: 90%;
+        margin-left: -6%;
+    }
+    .largemaps iframe{
+        display: none;
+    }
+    #subimage {
+        display: none;
+    }
+    h1 {
+        margin-top: 5%;
+        margin-bottom: 5%;
+        font-size: 4em;
+        text-align: center;
+    }
+    h2 {
+        margin-left: 1rem;
+    }
+    .contactinfo a{
+        color: #181613;
+    }
+    .contactinfo a:hover {
+        color: #ffffff;
+    }
+    form {
+        background-color: #F7D200;
+        padding: 1rem;
+        max-width: 70%;
+        margin: 0 auto;
+        margin-top: 5rem;
+        border-radius: 2rem;
+        border: 1px solid #A77800;
+        box-shadow: 1px 1px 8px 1px #A77800; 
+    }
+    legend {
+        text-align: center;
+        font-size: 3em;
+    }
+    fieldset {
+        border-style: none;
+    }
+    .center {
+        display: flex;
+        padding: 1rem;
+        flex-wrap: wrap;
+        align-content: center;
+        flex-direction: column;
+        font-size: 1.2em;
+    }
+    .center input {
+        font-size: 1em;
+    }
+    .name {
+        padding: 1rem;
+    }
+    #name {
+        padding: .5rem;
+        width: 68%;
+    }
+    .number {
+        padding: 1rem;
+        margin-left: -5rem;
+    }
+    #number {
+        padding: .5rem;
+        width: 53%;
+    }    
+    .email {
+        padding: 1rem;
+        margin-right: -.1rem;
+    }
+    #email {
+        padding: .5rem;
+        width: 68%;
+    }
+    .radios {
+        display: flex;
+        padding: 1rem;
+        flex-direction: column;
+        align-items: center;
+        margin-top: -1.5rem;
+    }
+    .radios input {
+        width: 5em;
+    }
+    .purpose {
+        padding: 1rem;
+        font-size: 2em;
+    }
+    .auction, .value, .clearance, .sell, .another {
+        padding: .5rem;
+        font-size: 1.2em;
+    }
+    input[type=radio] {
+        width: 50px;
+        height: auto;
+    }
+    .butto {
+        display: flex;
+        justify-content: center;
+        margin-top: 1rem;
+        width: 100%;
+    }
+    .butto input {
+        background-color: #181613;
+        color: #F7D200;
+        padding: 2rem;
+        font-size: 2em;
+        border-radius: 1rem;
+        width: 300px;
+    }
+    .butto input:hover {
+        background-color: #A77800;
+        color: #ffffff;
+    }
+    .details {
+        display: flex;
+        padding: 1rem;
+        flex-direction: column;
+        align-items: center;
+    }
+    .details label {
+        font-size: 1.5em;
+        padding: .5rem;
+    }    
+    .details textarea {
+        font-size: 1.2em;
+        padding: .5rem;
+    }
+    #details {
+        padding: .5rem;
+        width: 70%;
+        height: auto;
+    }
+    .flex {
+        display: flex;
+        justify-content: space-evenly;
+        padding: 1rem;
+    }
+    #image1, #image2 {
+        width: 32%;
+        margin-top: 7%;
+        margin-bottom: 5%;
+    }
+    #image1 img, #image2 img {
+        border: 1px solid #A77800;
+        box-shadow: 1px 1px 8px 1px #A77800; 
+        border-radius: 1rem;
+        background-color: #181613;
+        width: 100%;
+    }
+}

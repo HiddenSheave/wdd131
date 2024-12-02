@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heritage Home Page</title>
+
+    <meta name="description" content="contact us page for heritage hosue clearences website">
+    <meta name="author" content="bryce petrovay">
+
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/styles-large.css">
+    <link rel="stylesheet" href="styles/contactus.css">
+    <link rel="stylesheet" href="styles/contactus-large.css">
+    <script src="scripts/project.js" defer></script>
+    <script src="scripts/contactus.js" defer></script>
+
+    <link rel="icon" href="images/heritagereal.webp" type="image/x-icon">
+    <link rel="shortcut icon" href="images/heritagereal.webp" type="image/x-icon">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Luxurious+Roman&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="images/heritagereal.webp" alt="Heratige Logo" width="100" height="100">
+            <button id="menu" aria-label="menu button" ></button>
+        </div>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="auctionhouse.html">Auction House</a>
+                <a href="contactus.html">Contact Us</a>
+            </nav>
+    </header>
+    <main>
+        <h1>Contact Us</h1>
+        <div class="notsection">
+                <div class="info">
+                    <h2>Company Information</h2>
+                        <p>                    
+                        If you have any questions or need assistance, we're here to help. As an experienced antique and estate clearing company, we specialize in providing a wide range of services, including:
+                        </p>
+                        <br>
+                        <ul>
+                            <li>Properties Prepared for Sale or Letting</li>
+                            <li>Probate Valuation</li>
+                            <li>Deceased Estates</li>
+                            <li>House Clearances</li>
+                            <li>Licensed Waste Disposal</li>
+                            <li>Fully Insured Services</li>
+                            <li>Personalized Service Tailored to Your Needs</li>
+                            <li>Competitive Rates</li>
+                        </ul>
+                        <br>
+                        <p>
+                        Whether you're managing an estate, clearing a property, or in need of expert advice, we're happy to offer our support every step of the way. Reach out to us for a consultation, and let us guide you through the process with professionalism and care.
+                        </p>
+                        <div class="contactinfo">
+                            <p>Name: Mr Tony Owen</p>
+                            <p>Phone Number: <a href="tel:+447531253090">+44 7531 253 090</a></p>
+                            <p>Email Us: <a href="mailto:tony@heritage-estate-clearences.co.uk">tony@heritage-estate-clearences.co.uk</a></p>                
+                        </div>
+                </div>
+                    <div class="largemaps">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d64588.59389640241!2d-1.8128509794035708!3d52.562822314459304!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2scz!4v1732305907640!5m2!1sen!2scz" width="600" height="700" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" sandbox="allow-scripts allow-forms"></iframe>
+                     </div>     
+                        <div class="smallmaps">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d68303.27508571232!2d-1.862736196042309!3d52.54229953676569!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2scz!4v1732463572720!5m2!1sen!2scz" width="400" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" sandbox="allow-scripts allow-forms"></iframe>                  
+                        </div>
+                    </div>
+
+        <div class="hero">
+            <img src="images/yardsale.webp" alt="birmingham"  width="1440" height="600">
+        </div>
+        <div id="subimage">
+            <img src="images/yardsale.webp" alt="small image"  width="1440" height="600"> 
+        </div>
+        <form id="informationForm" method="get" action="reach.html">
+            <fieldset>
+                <legend>Let Us Contact You</legend>
+                <div class="center">
+                    <div class="name">
+                        <label for="name">Name <span class="required">*</span></label>
+                        <input type="text" id="name" placeholder="John Smith" required>
+                    </div>
+                    <div class="number">
+                        <label for="number">Phone Number <span class="required">*</span></label>
+                        <input type="tel" id="number" placeholder="+" required>
+                    </div>                
+                    <div class="email">
+                        <label for="email">Email <span class="required">*</span></label>
+                        <input type="email" id="email" placeholder="example@email.com" required>
+                    </div>
+                </div>
+               
+                <div class="radios">
+                    <div class="purpose">
+                        <label>Purpose of Inquiry <span class="required">*</span></label>
+                    </div>
+
+                    <div class="notuse">
+                        <div class="auction">
+                            <input type="radio" id="auction" name="auction" value="auction">
+                            <label for="auction">Looking to buy an item</label>
+                        </div>
+
+                        <div class="value">
+                            <input type="radio" id="value" name="value" value="value">
+                            <label for="value">Want an item valued</label>
+                        </div>
+
+                        <div class="clearance">
+                            <input type="radio" id="clearance" name="clearance" value="clearance">
+                            <label for="clearance">Need a house cleared</label>
+                        </div>
+
+                        <div class="sell">
+                            <input type="radio" id="sell" name="sell" value="sell">
+                            <label for="sell">Want to sell an item</label>
+                        </div>
+
+                        <div class="another">
+                            <input type="radio" id="another" name="another" value="another">
+                            <label for="another">Something Else</label>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="details">
+                    <label for="details">Please provide additonal details <span class="addition">*</span></label>
+                    <textarea id="details" name="details" rows="6" placeholder="type here..." required></textarea>
+                </div>
+
+
+                <div class="butto">
+                    <label for="submit"></label>
+                    <input type="submit" value="Submit" id="submit">
+                </div>
+            </fieldset>
+        </form>
+        <div class="flex">
+            <div id="image1">
+                <img src="images/cutglass.webp" alt="silverware">
+            </div>
+            <div id="image2">
+                <img src="images/oldhome.webp" alt="old house">
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>© 2024, Heritage Estate Clearances</p>
+    </footer>
+</body>
+</html>
+

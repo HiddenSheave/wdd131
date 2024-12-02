@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@media (max-width: 515px) {
+    body {
+        font-family: "Luxurious Roman", serif;
+        margin: 0 auto;
+        max-width: 100%;
+        height: auto;
+    }
+
+    header {
+        background-color: #181613;
+        color: #F7D200;
+        text-align: center;
+        border-top: 1px solid #A77800;
+        border-right: 1px solid #A77800;
+        border-left: 1px solid #A77800;
+        box-shadow: 1px 1px 8px 1px #A77800;
+        width: 100%;
+        height: auto;
+    }
+
+    .logo img {
+        width: 100px;
+        border-radius: 8rem;
+        border: 1px solid #A77800;
+        box-shadow: 1px 1px 8px 1px #A77800;
+        margin-left: 2rem;
+    }
+
+    .logo {
+        padding: 1.5rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;    }
+
+    footer {
+        margin: 0 auto;
+        text-align: center;
+        background-color: #181613;
+        color: #F7D200;
+        font-weight: bold;
+        border: 1px solid #A77800;
+        box-shadow: 1px 1px 8px 1px #A77800;
+        padding: 1rem;
+        margin-top: 4rem;
+    }
+
+    nav {
+        background-color: #181613;
+        color: #F7D200;
+        padding: .5rem;
+        margin-left: 1rem;
+        margin: 0 auto;
+        max-width: 500px;
+        display: none;
+        transition: transform 0.3s ease-in-out;
+        transform: translateX(-100%);
+    }
+
+    nav a {
+        color: #F7D200;
+        text-decoration: none;
+        text-align: center;
+        display: block;
+        padding: 1rem;
+    }
+
+    nav a:hover {
+        text-decoration: overline;
+    }
+
+    nav a:hover {
+        text-decoration: overline;
+    }
+
+    nav.open {
+        display: block;
+        font-size: xx-large;
+        background-color: #181613;
+        color: #F7D200;
+        padding: 1rem;
+        height: auto;
+        width: 100%;
+        transform: translateX(0);
+    }
+
+    #menu {
+        font-size: 6rem;
+        border: 0;
+        background: none;
+        color: #F7D200;
+        cursor: pointer;
+    }
+
+    #menu::before {
+        content: "☰";
+    }
+
+    #menu.open::before {
+        content: "☰";
+        color: #F7D200;
+    }
+}

@@ -1,0 +1,222 @@
+@media (max-width: 515px) {
+    h1 {
+        font-size: 4em;
+        text-align: center;
+        margin-top: 5%;
+        margin-bottom: 5%;
+
+    }
+    .hero img {
+        display: none;
+    }
+    .notsection {
+        background-color: #F7D200;
+        color: #181613;
+        border: 1px solid #A77800;
+        box-shadow: 1px 1px 8px 1px #A77800;
+        padding: 1rem;
+        border-radius: 2rem;
+        font-size: 1em;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        height: auto;
+    }
+
+    .info h2 {
+        margin-bottom: 1rem;
+    }
+
+    .notsection p {
+        width: 100%;
+        height: auto;
+        margin-left: 1rem;
+    }
+
+    li {
+        margin-left: 3rem;
+    }
+
+    .largemaps iframe {
+        display: none;
+    }
+
+    .smallmaps iframe {
+        border-radius: 2rem;
+        border: 1px solid #181613;
+        box-shadow: 1px 1px 8px 1px #181613;
+        opacity: 90%;
+        width: 100%;
+        margin-top: 2rem;
+        align-items: center;
+    }
+
+    .contactinfo a {
+        color: #181613;
+    }
+
+    .contactinfo a:hover {
+        color: #ffffff;
+    }
+
+    form {
+        background-color: #F7D200;
+        padding: 1rem;
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+        margin-top: 3rem;
+        border-radius: 2rem;
+        border: 1px solid #A77800;
+        box-shadow: 1px 1px 8px 1px #A77800;
+    }
+
+    legend {
+        text-align: center;
+        font-size: 2.5em;
+    }
+
+    fieldset {
+        border-style: none;
+        width: 100%;
+        height: auto;
+    }
+
+    .center {
+        display: flex;
+        padding: 1rem;
+        flex-wrap: wrap;
+        justify-content: center;
+        flex-direction: column;
+        align-content: stretch;
+        font-size: 1em;
+    }
+
+    .center input {
+        font-size: 1em;
+    }
+
+    .name {
+        padding: 1rem;
+    }
+
+    #name {
+        padding: .5rem;
+        width: 70%;
+    }
+
+    .number {
+        padding: 1rem;
+    }
+
+    #number {
+        padding: .5rem;
+        width: 53%;
+    }
+
+    .email {
+        padding: 1rem;
+        margin-right: -.1rem;
+    }
+
+    #email {
+        padding: .5rem;
+        width: 69.5%;
+    }
+
+    .radios {
+        display: flex;
+        padding: 1rem;
+        flex-direction: column;
+        align-items: center;
+        margin-top: -1.5rem;
+    }
+
+    .purpose {
+        padding: 1rem;
+        font-size: 1.8em;
+    }
+
+    .auction,
+    .value,
+    .clearance,
+    .sell,
+    .another {
+        padding: .5rem;
+        font-size: 1.2em;
+    }
+    input[type=radio] {
+        width: 70px;
+        height: auto;
+    }
+    .butto {
+        display: flex;
+        justify-content: center;
+        padding: 1rem;
+        margin-top: 1rem;
+        width: 100%;
+    }
+
+    .butto input {
+        background-color: #181613;
+        color: #F7D200;
+        padding: 1.5rem;
+        font-size: 1.5em;
+        border-radius: 1rem;
+        width: 50%;
+    }
+
+    .butto input:hover {
+        background-color: #A77800;
+        color: #ffffff;
+    }
+
+    .details {
+        display: flex;
+        padding: 1rem;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .details label {
+        font-size: 1.3em;
+        padding: .5rem;
+    }
+
+    .details textarea {
+        font-size: 1.2em;
+        padding: .5rem;
+    }
+
+    #details {
+        padding: .5rem;
+        width: 100%;
+    }
+
+    .flex {
+        display: flex;
+        justify-content: space-evenly;
+        padding: 1rem;
+    }
+
+    #image2 img {
+        border: 1px solid #A77800;
+        box-shadow: 1px 1px 8px 1px #A77800;
+        margin-top: 4rem;
+        border-radius: .5rem;
+        width: 100%;
+    }
+
+    #image1 img {
+        display: none;
+    }
+
+    #subimage img {
+        width: 100%;
+        height: auto;
+        margin-top: 3rem;
+        border: 1px solid #A77800;
+        box-shadow: 1px 1px 8px 1px #A77800;
+        border-radius: .5rem;
+    }
+}
